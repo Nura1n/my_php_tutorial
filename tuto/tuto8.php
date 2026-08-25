@@ -30,3 +30,15 @@
 
 </body>
 </html>
+
+//nota
+
+multidimensional
+array within an array
+
+print_r($blogs[1][1]); (first one is the line, the second one is the position)(using indexed array)
+echo $blogs[2]['author']; (again the same thing as above)(using associative array)
+
+[] to add onto an array
+
+array_pop = how to take something off an array

@@ -1,1 +1,0 @@
-//PHP - PHP Hypertext Preprocessor
