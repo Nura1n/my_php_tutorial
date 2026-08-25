@@ -1,47 +1,50 @@
 <?php
 
-    $stringOne = 'my email is ';
-    $stringTwo = 'mario123@thenetninja.co.uk';
+$stringOne = 'my email is ';
+$stringTwo = 'mario123@thenetninja.co.uk';
 
-    //echo $stringOne . $stringTwo;
+//echo $stringOne . $stringTwo;
 
-    $name = 'mario';
+$name = 'mario';
 
-    //echo 'Hey, my name is ' . $name;
+//echo 'Hey, my name is ' . $name;
 
-    //echo "Hey my name is $name"
+//echo "Hey my name is $name"
 
-    //echo "the ninja screamed \"whaaaaaa\"";
-    //echo 'the ninja screamed "whaaaaaa"';
+//echo "the ninja screamed \"whaaaaaa\"";
+//echo 'the ninja screamed "whaaaaaa"';
 
-    //echo $name[1];
+//echo $name[1];
 
-    //echo strlen($name);
-    //echo strtoupper($name);
-    //echo strtolower($name);
-    echo str_replace('m', 'w', $name);
+//echo strlen($name);
+//echo strtoupper($name);
+//echo strtolower($name);
+echo str_replace('m', 'w', $name);
 
 
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
 
 </body>
+
 </html>
 
 //nota
 
 string are contain in quotes, there is a diffference if we use single or double quoted
 single quotes = can't key in variables
-              = it will just display the variable name
+= it will just display the variable name
 string concaternation = to combine 2 strings
-                      = by using a dot (.)
+= by using a dot (.)
 
 using double quote = we can key in the variables in it
 
