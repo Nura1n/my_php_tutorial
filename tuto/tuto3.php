@@ -1,19 +1,22 @@
 <?php //(opening line)
 
-    // echo 'hello, guysss';
+// echo 'hello, guysss';
 
 ?> //(closing line)
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>my first PHP file</title>
 </head>
+
 <body>
 
     <h1><?php echo 'hello, guysss'; ?></h1>
 
 </body>
+
 </html>
 
 //notes
@@ -26,5 +29,3 @@ in html we can do php tag using the opening and closing tag of php
 
 reason why php is so popular:
 because we can combine html, css, javasccript
-
-
