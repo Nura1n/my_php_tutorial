@@ -4,40 +4,42 @@
 
 $price = 20;
 
-    //if($price < 10){
-        //echo 'the condition is met';
-    //} elseif ( $price < 30){
-        //echo 'elseif condition met';
-    //} else {
-        //echo 'the condition is not met';
-     //}
-   $products = [
-        ['name'=> 'shiny star','price' => 20],
-        ['name'=> 'green shell','price'=> 10],
-        ['name'=> 'red shell','price'=> 15],
-        ['name'=> 'gold coin','price'=> 5],
-        ['name'=> 'lightning bolt','price'=> 40],
-        ['name'=> 'banana skin','price'=> 2]
-    ];
+//if($price < 10){
+//echo 'the condition is met';
+//} elseif ( $price < 30){
+//echo 'elseif condition met';
+//} else {
+//echo 'the condition is not met';
+//}
+$products = [
+    ['name' => 'shiny star', 'price' => 20],
+    ['name' => 'green shell', 'price' => 10],
+    ['name' => 'red shell', 'price' => 15],
+    ['name' => 'gold coin', 'price' => 5],
+    ['name' => 'lightning bolt', 'price' => 40],
+    ['name' => 'banana skin', 'price' => 2]
+];
 
-    foreach ($products as $product){
+foreach ($products as $product) {
 
-        //if($product['price'] < 15 && $product['price'] > 2){
-        //    echo $product['name'] . '<br />';
-        //}
+    //if($product['price'] < 15 && $product['price'] > 2){
+    //    echo $product['name'] . '<br />';
+    //}
 
-        //if($product['price'] > 20 || $product['price'] < 10){
-        //echo $product['name'] . '<br />';
-        //}
-    }
+    //if($product['price'] > 20 || $product['price'] < 10){
+    //echo $product['name'] . '<br />';
+    //}
+}
 
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
     <div>
@@ -50,6 +52,7 @@ $price = 20;
         </ul>
 
 </body>
+
 </html>
 
 //nota
