@@ -2,14 +2,16 @@
 
 // functions
 
-function sayHello($name = 'shaun', $time = 'morning'){
+function sayHello($name = 'shaun', $time = 'morning')
+{
     echo "good $time $name";
 }
 
 //sayHello('mario');
 sayHello('yosi', 'night');
 
-function formatProduct($product){
+function formatProduct($product)
+{
     //echo "{$product['name']} costs {$product['price']} to buy <br />";
     return "{$product['name']} costs {$product['price']} to buy <br />";
 }
@@ -21,28 +23,31 @@ function formatProduct($product){
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
 
 
 </body>
+
 </html>
 
-//nota 
+//nota
 
 blocks of code that can be executed to do something
 
-input >> function (process) >> output 
+input >> function (process) >> output
 
 its build in but we can also make a functon ourselves
 
 use the keyword function >> that means we're creating a function
 
 function SayHello(){
-    echo "good morning yoshi";
+echo "good morning yoshi";
 }
 
 it will appear in the browser once we call on the function by saying the funcyion name: SayHello
