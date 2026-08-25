@@ -1,44 +1,47 @@
 <?php
 
-    $radius = 25;
-    $pi = 3.14;
+$radius = 25;
+$pi = 3.14;
 
-    //echo $pi * $radius ** 2;
+//echo $pi * $radius ** 2;
 
-    //echo 2 * (4 + 9) / 3;
+//echo 2 * (4 + 9) / 3;
 
-    // increment & decrement operators
+// increment & decrement operators
 
-    //echo $radius--;
-    //echo $radius;
+//echo $radius--;
+//echo $radius;
 
-    // shorthand operators
+// shorthand operators
 
-    $age = 20;
+$age = 20;
 
-    //$age -= 10;
-    //$age *= 2;
-    //echo $age;
+//$age -= 10;
+//$age *= 2;
+//echo $age;
 
-    // number functions
+// number functions
 
-    //echo floor($pi);
+//echo floor($pi);
 
-    //echo ceil($pi);
-    echo pi();
+//echo ceil($pi);
+echo pi();
 
 
 ?>
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
 
 </body>
+
 </html>
 
 //nota
