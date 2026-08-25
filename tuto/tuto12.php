@@ -53,4 +53,5 @@ foreach ($products as $product) {
 //nota
 
 break = break out of a loop no matter where we are
+
 continue = stop the code at a specific place, go back up to the foreach and continue on the next product
