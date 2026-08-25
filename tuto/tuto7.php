@@ -1,49 +1,49 @@
 <?php
 
-    // indexed array
+// indexed array
 
-    $peopleOne = ['shaun', 'crystal', 'ryu'];
+$peopleOne = ['shaun', 'crystal', 'ryu'];
 
-    //echo $peopleOne[1]
+//echo $peopleOne[1]
 
-    $peopleTwo = array('ken', 'chun-li');
-    //echo $peopleTwo[1];
+$peopleTwo = array('ken', 'chun-li');
+//echo $peopleTwo[1];
 
-    $ages = [20, 30, 40, 50];
-    //print_r($ages);
-
-
-    $ages[1] = 25;
-    //print_r($ages);
+$ages = [20, 30, 40, 50];
+//print_r($ages);
 
 
-    $ages[] = 60;
-    //print_r($ages);
+$ages[1] = 25;
+//print_r($ages);
 
-    array_push($ages, 70);
-    //print_r($ages);
 
-    //echo count($ages);
+$ages[] = 60;
+//print_r($ages);
 
-    $peopleThree = array_merge($peopleOne, $peopleTwo);
-    //print_r($peopleThree);
+array_push($ages, 70);
+//print_r($ages);
 
-    // associative array (key & value pairs)
-   
-    $ninjaOne = ['shaun' => 'black', 'mario' => 'orange', 'luigi' => 'brown'];
-    //echo $ninjaOne['mario'];
-    //print_r($ninjaOne);
+//echo count($ages);
 
-    $ninjaTwo = array('bowser' => 'green', 'peach' => 'yellow', 'toad' => 'pink');
-    //print_r($ninjaTwo);
+$peopleThree = array_merge($peopleOne, $peopleTwo);
+//print_r($peopleThree);
 
-    $ninjaTwo['peach'] = 'pink';
-    //print_r($ninjaTwo);
+// associative array (key & value pairs)
 
-    //echo count($ninjaOne);
+$ninjaOne = ['shaun' => 'black', 'mario' => 'orange', 'luigi' => 'brown'];
+//echo $ninjaOne['mario'];
+//print_r($ninjaOne);
 
-    $ninjaThree = array_merge($ninjaOne, $ninjaTwo);
-    print_r($ninjaThree);
+$ninjaTwo = array('bowser' => 'green', 'peach' => 'yellow', 'toad' => 'pink');
+//print_r($ninjaTwo);
+
+$ninjaTwo['peach'] = 'pink';
+//print_r($ninjaTwo);
+
+//echo count($ninjaOne);
+
+$ninjaThree = array_merge($ninjaOne, $ninjaTwo);
+print_r($ninjaThree);
 
 
 
@@ -51,13 +51,16 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
 
 </body>
+
 </html>
 
 //nota
@@ -85,7 +88,7 @@ function
 ptint_r = print a readable (to display the whole array)
 
 
-how to overwrite the array:  
+how to overwrite the array:
 $ages[1] = 25;
 print_r($ages);
 
@@ -93,7 +96,7 @@ print_r($ages);
 if $ages[] = 60; means it'll put at the end of the array because we didn't position which number to take over
 
 Function
-array_push =  push the value onto the array at the end
+array_push = push the value onto the array at the end
 
 count is to see how many value in the array
 
@@ -107,7 +110,7 @@ use keys instead of index (keys and value)
 => an arrow so it'll show the value, put it in the array
 
 print out a value by using [ and put in the key like 'mario']
-prinr a readable version we do  print_r
+prinr a readable version we do print_r
 
 add a new value (make a new key name)
 ['toad'] = pink
