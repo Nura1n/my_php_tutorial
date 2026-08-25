@@ -4,7 +4,8 @@
 
 //local vars
 
-function myFunc(){
+function myFunc()
+{
     $price = 10;
     echo $price;
 }
@@ -12,8 +13,9 @@ function myFunc(){
 //myFunc();
 //echo $price;
 
-function myFuncTwo($age){
-   echo $age;
+function myFuncTwo($age)
+{
+    echo $age;
 }
 
 //myFuncTwo(25);
@@ -32,7 +34,8 @@ $name = 'mario';
 //sayHello();
 //echo $name;
 
-function sayBye(&$name){
+function sayBye(&$name)
+{
     $name = 'wario';
     echo "bye $name";
 }
@@ -44,24 +47,27 @@ echo $name;
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PHP Tutorials</title>
 </head>
+
 <body>
 
 
 
 </body>
+
 </html>
 
-//nota 
+//nota
 
-local scope 
->> you can only use it inside the function 
+local scope
+>> you can only use it inside the function
 >> if we declare a variable inside the function, it must be only in the function
 
-Global scope 
->> if we declare the variable outside the fuction, there will be an error 
+Global scope
+>> if we declare the variable outside the fuction, there will be an error
 >> becausee the function trying to find the local variavble
 >> what to do?
->> declare the $name in theh function as global $name 
+>> declare the $name in theh function as global $name
