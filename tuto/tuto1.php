@@ -7,7 +7,7 @@
 PHP - PHP Hypertext Preprocessor
 
 
-html, css, javascript: runs inside a web browser               
+html, css, javascript: runs inside a web browser
 
 host server: php
 *we can make form and submit it to the server, and the server will process it and send back a response to the browser.
